@@ -1,0 +1,117 @@
+.header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+    
+
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-items>ul>li  {
+
+    padding: 10px;
+}
+.logo {
+    width: 100px;
+
+}
+.cardx {
+    width: 100%;
+
+}
+.card {
+    border: 1px solid black;
+    display: flexbox;
+    width: 165px;
+    height: 370px;
+    padding: 7px;
+    margin: 7px;
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+}
+.restaurantlist {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer {
+    background-color:black;
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+    color: aliceblue;
+}
+.search-container {
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+}
+.img1 {
+
+    width: 160px;
+    height: 160px;
+}
+.light { display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    background-color: aqua;
+    color: black;
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+    
+}
+.dark {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: rgb(14, 2, 2);
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+}
+.shimmer-card {
+    
+    height: 165px;
+    width: 165px;
+    padding: 5px;
+    margin: 20px;
+    background-color:  lightgray;
+    
+}
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.light:hover {
+    box-shadow: 1px 1px 10px 0px red;
+}
+.search-input {
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+}
+.btn btn-dark {
+    box-shadow: 10px 10px 5px rgb(13, 13, 13);
+}
+.card:hover {
+    box-shadow: 1px 1px 10px 0px red;
+}
+.footer:hover {
+    box-shadow: 1px 1px 10px 0px red;}
+.dark:hover {
+        box-shadow: 1px 1px 10px 0px red;}
+.restimg {
+    width: 200px;
+    height: 200px;
+}
+.RestaurantMenu  {
+    display: flex;
+   
+    
+}
+.RestaurantMenu1 {
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
